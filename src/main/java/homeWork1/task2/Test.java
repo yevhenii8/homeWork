@@ -27,7 +27,5 @@ public class Test {
         phone1.receiveCall("Alex");
         phone2.receiveCall("Eugene");
         phone3.receiveCall("Arpad");
-
-
     }
 }
