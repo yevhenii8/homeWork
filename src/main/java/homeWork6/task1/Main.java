@@ -1,5 +1,7 @@
 package homeWork6.task1;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         DoublyLinkedList list = new DoublyLinkedList();
@@ -22,5 +24,16 @@ public class Main {
 
         System.out.println("содержит число? " + list.contains(10));
         System.out.println("содержит число? " + list.contains(90));
+
+        System.out.println("итератор:");
+
+        DoublyLinkedList.ListIterator iterator = list.new ListIterator(list.getHead(), 0);
+
+        System.out.println("вперед:");
+
+        while (iterator.hasNext()) {
+            int item = iterator.next();
+            System.out.println(item);
+        }
     }
 }

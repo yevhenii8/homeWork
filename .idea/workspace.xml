@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="67225095-1c27-4f27-9421-756068e7b2ea" name="Changes" comment="Message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeWork6/task1/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWork6/task1/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeWork6/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWork6/task1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684492197781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Message">
+      <created>1684520144137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684520144137</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,6 +205,15 @@
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/homeWork6/task1/Main.java</url>
+          <line>5</line>
+          <properties class="homeWork6.task1.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/homeWork4/task2/Main.java</url>
           <line>9</line>
@@ -208,7 +226,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/homeWork6/task1/Main.java</url>
-          <line>4</line>
+          <line>6</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
