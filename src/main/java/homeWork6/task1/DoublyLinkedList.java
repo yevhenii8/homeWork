@@ -121,7 +121,7 @@ public class DoublyLinkedList {
             if (!hasNext()) {
                 throw new NoSuchElementException();
             } else {
-                int data = current.data;
+                int data = lastAccessed.data;
                 lastAccessed = current;
                 current = current.next;
                 currentIndex++;
@@ -179,7 +179,7 @@ public class DoublyLinkedList {
         public void add(Integer integer) {
             Node newNode = new Node(integer);
             if (current == null) {
-                if (getSize() == 0) {
+                if (size == 0) {
                     head = newNode;
                     tail = newNode;
                 } else {
@@ -195,8 +195,8 @@ public class DoublyLinkedList {
             current.next = newNode;
             current = newNode;
             lastAccessed = null;
-            currentIndex++;
             size++;
+            currentIndex++;
         }
     }
 }
